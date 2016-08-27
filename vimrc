@@ -25,6 +25,12 @@ noremap <leader>ev :vsplit $MYVIMRC<cr>
 map <leader>ss :NERDTreeToggle<CR>
 map <leader>spt :Spotify 
 
+
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 inoremap jj <Esc>
 nnoremap ; :
 
